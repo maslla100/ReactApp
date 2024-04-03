@@ -7,13 +7,13 @@ const FooterComponent = () => {
     return (
         <footer className="footer-component">
             {/* Social Icons and Links */}
-            <a href="https://linkedin.com/in/luisllamas" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
+            <a href="https://www.linkedin.com/in/luisellamas/" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">
                 <FaLinkedin className="social-icon" />
             </a>
-            <a href="https://github.com/luisllamas" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
+            <a href="https://github.com/maslla100" target="_blank" rel="noopener noreferrer" title="GitHub Profile">
                 <FaGithub className="social-icon" />
             </a>
-            <a href="https://stackoverflow.com/users/luisllamas" target="_blank" rel="noopener noreferrer" title="Stack Overflow Profile">
+            <a href="https://github.com/maslla100" target="_blank" rel="noopener noreferrer" title="Stack Overflow Profile">
                 <FaStackOverflow className="social-icon" />
             </a>
         </footer>
