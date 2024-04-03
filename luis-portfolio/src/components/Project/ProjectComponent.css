@@ -1,0 +1,24 @@
+.project-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.project-container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-link {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}

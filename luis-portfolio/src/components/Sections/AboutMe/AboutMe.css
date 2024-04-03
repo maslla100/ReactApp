@@ -1,0 +1,68 @@
+.about-me {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.profile-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    /* Adjust the border color based on your theme */
+}
+
+.bio,
+.professional-highlights,
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.bio h2,
+.professional-highlights h3,
+.contact-info h3 {
+    color: #007bff;
+    /* Theme color for headings */
+    margin-bottom: 10px;
+}
+
+.bio p,
+.professional-highlights ul,
+.contact-info p {
+    line-height: 1.6;
+    color: #333;
+    /* Dark grey color for text for better readability */
+}
+
+.professional-highlights ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+
+    .bio p,
+    .professional-highlights ul,
+    .contact-info p {
+        font-size: 14px;
+    }
+}

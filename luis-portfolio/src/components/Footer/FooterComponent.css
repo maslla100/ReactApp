@@ -1,0 +1,20 @@
+/* FooterComponent.css */
+
+.footer-component {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #fff;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+
+    /* Increase the size slightly on hover */
+    &:hover {
+        color: #007bff;
+    }
+}

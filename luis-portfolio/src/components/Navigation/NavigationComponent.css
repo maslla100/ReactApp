@@ -1,0 +1,55 @@
+/* NavigationComponent.css */
+
+/* Styles for the navigation bar itself */
+.navigation {
+    background-color: #333;
+    /* Dark background for the nav bar */
+    overflow: hidden;
+    /* Ensures the content fits within the navigation bar */
+}
+
+/* Styles for the list items within the navigation bar */
+.navigation ul {
+    list-style-type: none;
+    /* Removes bullet points from the list */
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for each navigation link */
+.navigation ul li {
+    float: left;
+    /* Aligns the links horizontally */
+}
+
+/* Styles for the links */
+.navigation ul li a {
+    display: block;
+    /* Makes the entire area clickable */
+    color: white;
+    /* Text color */
+    text-align: center;
+    /* Centers the text within the link */
+    padding: 14px 16px;
+    /* Adds some padding around the text */
+    text-decoration: none;
+    /* Removes underline from links */
+    font-size: 17px;
+    /* Increases the font size for better readability */
+}
+
+/* Styles for a link when the user hovers over it */
+.navigation ul li a:hover {
+    background-color: #ddd;
+    /* Changes background to a light grey */
+    color: black;
+    /* Changes text color to black */
+}
+
+/* Styles for the active link */
+.active {
+    background-color: #04AA6D;
+    /* Highlights the active link with a different color */
+    color: white;
+    /* Keeps the text color white for contrast */
+}

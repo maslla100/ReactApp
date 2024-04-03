@@ -1,0 +1,77 @@
+/* Portfolio Section Styles */
+.portfolio-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    /* Light gray background for the portfolio section */
+    color: #333;
+    /* Dark text color for better readability */
+}
+
+.portfolio-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222;
+    /* Slightly darker color for the section title */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    /* Space between project cards */
+}
+
+/* Project Component Styles */
+.project-container {
+    width: 300px;
+    /* Fixed width for each project card */
+    background-color: #fff;
+    /* White background for project cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    border-radius: 8px;
+    /* Rounded corners for a modern look */
+    overflow: hidden;
+    /* Ensures content fits within the rounded corners */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.project-container img {
+    width: 100%;
+    /* Ensure images fill the card width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-bottom: 15px;
+}
+
+.project-container h3 {
+    margin-bottom: 10px;
+}
+
+.project-links {
+    margin-top: auto;
+    /* Aligns links to the bottom of the container */
+    width: 100%;
+    text-align: center;
+}
+
+.project-link {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 15px;
+    background-color: #007bff;
+    /* Bootstrap primary blue */
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background-color: #0056b3;
+    /* Darker blue on hover */
+}
