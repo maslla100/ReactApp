@@ -1,5 +1,4 @@
 import React from 'react';
-// Import the CSS for styling (ensure you create a corresponding CSS file)
 import './ProjectComponent.css';
 
 /**

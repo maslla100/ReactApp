@@ -6,7 +6,9 @@ import NavigationComponent from './components/Navigation/NavigationComponent';
 import AboutMe from './components/Sections/AboutMe/AboutMe';
 import Portfolio from './components/Sections/Portfolio/Portfolio';
 import Resume from './components/Sections/Resume/Resume';
+import Contact from './components/Sections/Contact/Contact';
 // Import CSS styles for components
+import './components/Sections/Contact/Contact.css'
 import './components/Header/HeaderComponent.css';
 import './components/Footer/FooterComponent.css';
 import './components/Navigation/NavigationComponent.css';
@@ -25,6 +27,7 @@ function App() {
           <Route path="/about-me" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<AboutMe />} />
         </Routes>
         <FooterComponent />
